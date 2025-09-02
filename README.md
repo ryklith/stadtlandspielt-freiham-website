@@ -1,73 +1,73 @@
-# Welcome to your Lovable project
+# StadtLandSpielt-Freiham Website
 
-## Project info
+A website for the StadtLandSpielt-Freiham event - an open gaming afternoon in Munich-Freiham on September 20-21, 2025.
 
-**URL**: https://lovable.dev/projects/756f93e8-1d86-441a-a0d4-8adf68e0c9a8
+## About
 
-## How can I edit this code?
+This is a React-based website built with Vite, TypeScript, and Tailwind CSS. The website provides information about the gaming event including dates, location, and details for visitors.
 
-There are several ways of editing your application.
+## Features
 
-**Use Lovable**
+- Responsive design for all devices
+- Modern UI with gaming-themed styling
+- Information about event dates and location
+- Google Maps integration
+- Sponsor information
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/756f93e8-1d86-441a-a0d4-8adf68e0c9a8) and start prompting.
+## Development
 
-Changes made via Lovable will be committed automatically to this repo.
+### Prerequisites
 
-**Use your preferred IDE**
+- Node.js (version 18 or higher)
+- npm or bun
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Installation
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+```bash
+npm install
+```
 
-Follow these steps:
+### Development Server
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The development server will start at `http://localhost:8080`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Building for Production
 
-**Use GitHub Codespaces**
+```bash
+npm run build
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### Preview Production Build
 
-## What technologies are used for this project?
+```bash
+npm run preview
+```
 
-This project is built with:
+## Technologies Used
 
-- Vite
+- React 18
 - TypeScript
-- React
-- shadcn-ui
+- Vite
 - Tailwind CSS
+- Radix UI Components
+- React Router
 
-## How can I deploy this project?
+## Project Structure
 
-Simply open [Lovable](https://lovable.dev/projects/756f93e8-1d86-441a-a0d4-8adf68e0c9a8) and click on Share -> Publish.
+```
+src/
+├── components/     # Reusable UI components
+├── pages/         # Page components
+├── assets/        # Images and static files
+├── hooks/         # Custom React hooks
+├── lib/           # Utility functions
+└── index.css      # Global styles
+```
 
-## Can I connect a custom domain to my Lovable project?
+## License
 
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+This project is private and proprietary.
