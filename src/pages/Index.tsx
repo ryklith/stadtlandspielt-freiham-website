@@ -1,6 +1,8 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { MapPin, Calendar, Clock, Users, Gamepad2 } from "lucide-react";
 import heroImage from "@/assets/gaming-hero.jpg";
+import bannerImage from "@/assets/stadt-land-spielt-banner.png";
+import logoImage from "@/assets/stadt-land-spielt-logo.png";
 
 const Index = () => {
   return (
@@ -19,8 +21,26 @@ const Index = () => {
         {/* Content */}
         <div className="relative z-10 container mx-auto px-4 py-16 md:py-24">
           <div className="max-w-4xl mx-auto text-center">
+            {/* Logo */}
+            <div className="flex justify-center mb-8">
+              <img 
+                src={logoImage} 
+                alt="StadtLandSpielt Logo" 
+                className="w-32 h-32 md:w-40 md:h-40 drop-shadow-lg"
+              />
+            </div>
+            
+            {/* Banner Image */}
+            <div className="flex justify-center mb-8">
+              <img 
+                src={bannerImage} 
+                alt="StadtLandSpielt Banner mit Terminen" 
+                className="max-w-full h-auto rounded-lg shadow-playful"
+              />
+            </div>
+            
             {/* Main Title */}
-            <h1 className="text-5xl md:text-7xl font-bold mb-8 text-foreground">
+            <h1 className="text-4xl md:text-6xl font-bold mb-8 text-foreground">
               <span className="text-game-blue">Stadt</span>
               <span className="text-game-green">Land</span>
               <span className="text-game-orange">Spielt</span>
